@@ -10,8 +10,8 @@ export default function Result({ weatherData, historyData , historySearch }) {
     return (
         <div className="container rounded-4 shadow-lg mt-4 p-2 col-sm-6">
           <div className="row">
-            <div className="col-3 border-end">
-              <h4 style={{fontFamily: 'serif'}} className="text-center fs-5 fw-bold">History</h4>
+            <div className="col-3 border-end ">
+              <h4 style={{fontFamily: 'serif'}} className="text-center fs-6 fw-bold">History</h4>
               <ul style={{listStyle: 'none'}} className="list-group text-center list-group-flush">
                 {historyItems}
               </ul>

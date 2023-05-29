@@ -8,3 +8,7 @@ body {
   padding: 20px;
   color: white;
 }
+.vertical-line {
+  border-left: 1px solid black;
+  height: 100px; /* Adjust the height as needed */
+}
